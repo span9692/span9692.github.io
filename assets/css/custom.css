@@ -16,3 +16,7 @@
     font-size: 350%;
     padding: 1rem;
 }
+
+a {
+    text-align: none;
+}
