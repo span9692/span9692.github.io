@@ -1,0 +1,18 @@
+.profile-image {
+    border-radius: 50%!important;
+    transform: scale(1.5);
+    margin: auto;
+}
+
+.tech-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: auto;
+}
+
+.tech {
+    font-size: 350%;
+    padding: 1rem;
+}
