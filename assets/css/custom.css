@@ -17,6 +17,11 @@
     padding: 1rem;
 }
 
-a {
-    text-align: none;
+.resume-btn {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.design-link {
+    text-decoration: none;
 }
