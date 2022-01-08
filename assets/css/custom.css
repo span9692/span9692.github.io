@@ -17,14 +17,20 @@
     padding: 1rem;
 }
 
+.email-link,
+.email2-link,
 .resume-btn {
     font-weight: bold;
     text-decoration: none;
 }
 
-.email-link {
-    text-decoration: none;
-    font-weight: bold;
+.email-link:hover,
+.resume-btn:hover {
+    color: #98c593!important;
+}
+
+.email2-link:hover {
+    color: #76aa71!important;
 }
 
 .design-link {
