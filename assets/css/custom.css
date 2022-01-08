@@ -22,10 +22,21 @@
     text-decoration: none;
 }
 
+.email-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .design-link {
     text-decoration: none;
 }
 
 textarea {
     resize: none;
+}
+
+.caption {
+    background-color: #4c5fad!important;
+    color: white!important;
+    font-weight: bold;
 }
