@@ -1,6 +1,6 @@
 .profile-image {
     border-radius: 50%!important;
-    transform: scale(1.5);
+    transform: scale(1.4);
     margin: auto;
 }
 
@@ -24,4 +24,8 @@
 
 .design-link {
     text-decoration: none;
+}
+
+textarea {
+    resize: none;
 }
