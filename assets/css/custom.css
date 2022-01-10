@@ -1,3 +1,7 @@
+.name-top-left {
+    color: black
+}
+
 .profile-image {
     border-radius: 50%!important;
     /* transform: scale(1.4); */
@@ -74,6 +78,10 @@ textarea {
 
 .dim:hover {
     -webkit-filter: brightness(96%);
+}
+
+.pointer {
+    cursor: pointer!important;
 }
 
 @media (max-width: 736px) {
