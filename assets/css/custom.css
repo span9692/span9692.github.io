@@ -48,11 +48,6 @@ textarea {
     font-weight: bold;
 }
 
-/* .from-right,
-.from-left {
-    margin-bottom: -.5rem;
-} */
-
 .project-border {
     border: .5px solid rgb(218, 218, 218)!important;
 }
@@ -63,7 +58,7 @@ textarea {
 
 .project-links {
     margin-bottom: .5rem;
-    margin-top: -.5rem;
+    margin-top: -.1rem;
     font-size: 1rem;
 }
 
@@ -75,6 +70,10 @@ textarea {
 .project-link-text:hover {
     color: black;
     text-decoration: underline;
+}
+
+.dim:hover {
+    -webkit-filter: brightness(96%);
 }
 
 @media (max-width: 736px) {
