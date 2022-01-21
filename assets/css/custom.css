@@ -85,11 +85,17 @@ textarea {
     cursor: pointer!important;
 }
 
-#one {
+#one,
+#two {
     position: relative;
 }
 
-.tester {
+.zidx {
+    position: relative;
+    z-index: 2;
+}
+
+.backimage1 {
     background-image: url('../../images/riverflows.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,6 +105,20 @@ textarea {
     top: 0px;
     bottom: 0px;
     z-index: 1;
+    opacity: 30%;
+}
+
+.backimage2 {
+    background-image: url('../../images/image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+    opacity: 15%;
 }
 
 @media (max-width: 736px) {
