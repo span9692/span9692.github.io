@@ -67,7 +67,8 @@ textarea {
 }
 
 .project-link-text {
-    color: rgb(158, 158, 158);
+    font-weight: bold;
+    color: rgb(141, 141, 141);
     text-decoration: none;
 }
 
